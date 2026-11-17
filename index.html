@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>helloChesee – Cheesecuit & Dalgona Fresh Setiap Hari</title>
+<meta name="description" content="Cheesecuit lembut dan dalgona creamy, dibuat fresh setiap hari. Pesan lewat WhatsApp, antar di hari yang sama.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="logo" href="#top" aria-label="helloChesee, ke atas">
+    <svg class="logo-mark" viewBox="0 0 40 40" aria-hidden="true">
+      <rect width="40" height="40" rx="11" fill="#8a4f2b"/>
+      <path d="M9 26v-8c0-1.6 1-2.7 2.5-3l17-3.6c1.5-.3 2.5.6 2.5 2.1V26z" fill="#fbf8f5"/>
+      <path d="M9 26h22v3.5c0 .8-.7 1.5-1.5 1.5h-19c-.8 0-1.5-.7-1.5-1.5z" fill="#d9b98f"/>
+      <path d="M13 19.5c2.5 1.6 5 1.6 7.5 0s5-1.6 7.5 0" fill="none" stroke="#8a4f2b" stroke-width="1.6" stroke-linecap="round"/>
+      <circle cx="26" cy="11.5" r="2.6" fill="#d9b98f"/>
+    </svg>
+    <span class="logo-text">hello<span>Chesee</span></span>
+  </a>
+  <nav id="menu">
+    <a href="#menu-produk">Menu</a>
+    <a href="#cerita">Cerita</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+  <button class="cart-btn" id="openCart" aria-label="Buka keranjang">
+    <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 3.5h2.8l2.3 11.2a1.6 1.6 0 0 0 1.6 1.3h8.1a1.6 1.6 0 0 0 1.6-1.2L20.5 8H6.1"/><circle cx="9.5" cy="20" r="1.4" fill="currentColor"/><circle cx="17" cy="20" r="1.4" fill="currentColor"/></svg>
+    <span class="cart-label">Keranjang</span>
+    <span class="cart-count" id="cartCount">0</span>
+  </button>
+</header>
+
+<main>
+<section class="hero" id="top">
+  <div class="hero-text">
+    <h1>Lembut di piring, creamy di gelas.</h1>
+    <p>Cheesecuit yang meleleh di mulut dan dalgona kopi yang dikocok sampai tebal. Dibuat fresh pagi ini, diantar siang ini.</p>
+    <div class="cta">
+      <a class="btn" href="#menu-produk">Pesan sekarang</a>
+      <a class="btn btn-line" href="#cerita">Kenali kami</a>
+    </div>
+    <ul class="mini"><li>Tanpa pengawet</li><li>Antar hari yang sama</li><li>Bisa pesan untuk acara</li></ul>
+  </div>
+</section>
+
+<section class="section" id="menu-produk">
+  <h2>Menu hari ini</h2>
+  <p class="menu-lead">Dibuat pagi ini. Tekan Tambah, lalu kirim pesananmu lewat WhatsApp.</p>
+  <div class="filters" role="group" aria-label="Filter menu">
+    <button class="chip active" data-f="all">Semua</button>
+    <button class="chip" data-f="cheesecuit">Cheesecuit</button>
+    <button class="chip" data-f="dalgona">Dalgona</button>
+  </div>
+  <div class="products" id="products"></div>
+</section>
+
+<section class="section band" id="cerita">
+  <div class="split">
+    <div>
+      <h2>Dari dapur rumah, untuk meja kamu</h2>
+      <p>helloChesee bermula dari oven kecil di rumah pada 2021. Resepnya kami uji berkali-kali sampai teksturnya pas: cheesecuit yang padat tapi lembut, dalgona yang tebal tapi tidak pahit.</p>
+      <p>Kami memakai cream cheese asli, kopi arabika, dan gula secukupnya. Setiap pesanan dibuat pada hari yang sama.</p>
+    </div>
+    <div class="values">
+      <div><b>Bahan asli</b><span>Cream cheese, butter, dan kopi arabika pilihan.</span></div>
+      <div><b>Fresh setiap hari</b><span>Dibuat pagi, dikirim siang. Tidak ada stok lama.</span></div>
+      <div><b>Kemasan aman</b><span>Box kokoh dan cup tertutup, sampai tanpa berantakan.</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="testimoni">
+  <h2>Kata pelanggan</h2>
+  <div class="reviews">
+    <blockquote>Cheesecuit red velvet-nya juara, tidak terlalu manis. Sudah pesan lima kali.<cite>Sinta</cite></blockquote>
+    <blockquote>Dalgona-nya tebal banget, sampai rumah masih dingin.<cite>Fajar</cite></blockquote>
+    <blockquote>Pesan 30 box untuk arisan, rapi dan tepat waktu.<cite>Bu Wulan</cite></blockquote>
+  </div>
+</section>
+
+<section class="section band" id="kontak">
+  <div class="contact">
+    <div>
+      <h2>Pesan untuk acara?</h2>
+      <p>Hubungi kami minimal 2 hari sebelumnya untuk pesanan di atas 20 box.</p>
+      <ul class="info">
+        <li><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.1-7-11.5a7 7 0 0 1 14 0C19 14.9 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><span>Jl. Nginden Semolo No. 34–36, Surabaya 60118, Jawa Timur (Kecamatan Sukolilo)</span></li>
+        <li><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg><a href="tel:+6283830086964">+62 838-3008-6964</a></li>
+        <li><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Setiap hari, 09.00–19.00 WIB</span></li>
+      </ul>
+      <div class="social" aria-label="Media sosial">
+        <a href="https://wa.me/6283830086964" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+        <a href="https://www.instagram.com/hellochesee__" target="_blank" rel="noopener" aria-label="Instagram @hellochesee__"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".6" fill="currentColor"/></svg></a>
+        <a href="https://www.tiktok.com/@hellochesee__" target="_blank" rel="noopener" aria-label="TikTok @hellochesee__"><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer><p>© <span id="year"></span> helloChesee. Dibuat dengan cinta dan banyak cream cheese.</p></footer>
+
+<div class="overlay" id="overlay" hidden></div>
+<aside class="drawer" id="drawer" aria-label="Keranjang" aria-hidden="true">
+  <div class="drawer-head"><h2>Keranjang</h2><button id="closeCart" aria-label="Tutup keranjang">✕</button></div>
+  <div class="items" id="items"></div>
+  <div class="drawer-foot">
+    <div class="total"><span>Total</span><b id="total">Rp 0</b></div>
+    <input id="cname" placeholder="Nama kamu" autocomplete="name">
+    <input id="caddr" placeholder="Alamat antar" autocomplete="street-address">
+    <button class="btn" id="checkout">Pesan lewat WhatsApp</button>
+    <p class="err" id="cerr"></p>
+  </div>
+</aside>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
