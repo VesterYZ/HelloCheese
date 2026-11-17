@@ -8,7 +8,7 @@
       cat: 'cheesecuit', 
       name: 'Cheesecuit Original', 
       price: 22000, 
-      img: 'images/original.jpg', 
+      img: 'images/original.webp', 
       emoji: '🍰', 
       desc: 'Klasik, lembut, dengan dasar biskuit butter.' 
     },
@@ -17,7 +17,7 @@
       cat: 'cheesecuit', 
       name: 'Cheesecuit Oreo', 
       price: 25000, 
-      img: 'images/oreo.jpg', 
+      img: 'images/oreo.webp', 
       emoji: '🍪', 
       desc: 'Remahan oreo renyah di setiap gigitan.', 
       tag: 'Terlaris' 
@@ -27,7 +27,7 @@
       cat: 'cheesecuit', 
       name: 'Cheesecuit Coklat', 
       price: 25000, 
-      img: 'images/coklat.jpg', 
+      img: 'images/coklat.webp', 
       emoji: '🍫', 
       desc: 'Cokelat pekat yang lumer, manis pas.' 
     },
@@ -36,7 +36,7 @@
       cat: 'cheesecuit', 
       name: 'Cheesecuit Tiramisu', 
       price: 27000, 
-      img: 'images/tiramisu.jpg', 
+      img: 'images/tiramisu.webp', 
       emoji: '🤎', 
       desc: 'Aroma kopi dan taburan kakao ala tiramisu.' 
     },
@@ -45,7 +45,7 @@
       cat: 'cheesecuit', 
       name: 'Cheesecuit Red Velvet', 
       price: 27000, 
-      img: 'images/red-velvet.jpg', 
+      img: 'images/red-velvet.webp', 
       emoji: '❤️', 
       desc: 'Red velvet lembut dengan krim cheese di atasnya.', 
       tag: 'Favorit' 
@@ -55,7 +55,7 @@
       cat: 'dalgona', 
       name: 'Dalgona Coffee', 
       price: 18000, 
-      img: 'images/dalgona.jpg', 
+      img: 'images/dalgona.webp', 
       emoji: '☕', 
       desc: 'Kopi kocok tebal di atas susu dingin.' 
     }
